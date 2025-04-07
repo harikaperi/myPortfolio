@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* style.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    color: #00ffd0;
+}
+
+header p {
+    font-size: 1.5rem;
+    color: #ccc;
+}
+
+section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ffd166;
+    border-bottom: 2px solid #ffd166;
+    display: inline-block;
+    padding-bottom: 0.3rem;
+}
+
+.about p {
+    font-size: 1.1rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #ff6b6b;
+    color: white;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.skills li:hover {
+    background: #ff4d4d;
+}
+
+.projects .project {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-left: 5px solid #06d6a0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.projects .project:hover {
+    transform: translateX(5px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #111;
+    font-size: 1rem;
+    color: #aaa;
+}
+
+footer a {
+    color: #06d6a0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
